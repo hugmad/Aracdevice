@@ -1,60 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-<ModulePrefs title="Contet Css"/>
-<UserPref name="bg" display_name="Background color (e.g. #000000)"/>
+<ModulePrefs title="Contet Css" />
+<UserPref name="bg" display_name="Background color (e.g. #000000)" />
 <UserPref name="mode" display_name="Transparency" default_value="window" datatype="enum">
-<EnumValue value="window" display_value="No"/>
-<EnumValue value="transparent" display_value="Yes"/>
+<EnumValue value="window" display_value="No" />
+<EnumValue value="transparent" display_value="Yes" />
 </UserPref>
-<Content type="html">
-<![CDATA[
+<Content type="html"><![CDATA[
+       
 
-<!DOCTYPE html> 
-<!-- ####################################### - THE HEAD PART - ###################################### --> 
-<head> 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
-<title>Hugmad Videos Youtube</title> 
-<link rel="icon" type="image/png" href="https://sites.google.com/a/hugmad.com/web/favicon.png" /> 
-<!-- commented, remove this line to use IE & iOS favicons --> 
-<link rel="shortcut icon" href="https://sites.google.com/a/hugmad.com/web/favicon.ico" /> 
-<!-- get jQuery from the google apis --> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
-<!-- CSS STYLE --> 
-<link rel="stylesheet" type="text/css" href="https://sites.google.com/a/hugmad.com/web/style.css" media="screen" /> 
-<!-- jQuery Paradigm Slider --> 
-<script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.easing.1.3.js">
-</script> 
-<script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.cssAnimate.mini.js"></script>
-<script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.waitforimages.js"></script>
-<script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.touchwipe.min.js"></script> 
-<script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.themepunch.kenburn.min.js"></script> 
-<link rel="stylesheet" type="text/css" href="https://sites.google.com/a/hugmad.com/web/settings.css" media="screen" /> 
-<link rel="stylesheet" type="text/css" href="css/content.css" media="screen" /> 
-<!-- LOADING THE GOOGLE FONTS HERE, If no Google Fonts Needed, set families like: families:[''] !! --> 
-<script type="text/javascript"> WebFontConfig = { google: { families: [ 'PT+Sans+Narrow:400,700' ] }, active: function() { jQuery('body').data('googlefonts','loaded');}, inactive: function() { jQuery('body').data('googlefonts','loaded');} }; 
-</script> 
-</head> 
-<!-- ####################################### - THE BODY PART - ###################################### --> 
-<body> 
-<!-- ################################# - FRESHLINE BANNER - ################################# --> 
-<div class="bannerholder"> 
-<div id="banner-example-1" class="dark" style="margin-top:0px;"> 
-<ul> 
-<!-- THE 0.0 SLIDE --> 
-<li data-transition="fade" 
-    data-startalign="center,top" 
-    data-zoom="in" 
-    data-zoomfact="1.6" 
-    data-endAlign="center,bottom" 
-    data-panduration="12" 
-    data-colortransition="4">
-    <img src="https://sites.google.com/a/hugmad.com/web/imageck0.jpg" 
-    data-bw="https://sites.google.com/a/hugmad.com/web/imageck0blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumbck.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumbck-blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/s2AlPh8kS-s?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Slide-Show</h2> <p> Acabei de fazer o video de como colocar um Slide-show dentro do seu Google Site e melhor totalmente editável. Aproveitem! </p> <p> <strong>Google Sites</strong> cresce a cada dia mais no Brasil, aproveite e faça uma visita <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://www.hugmad.com/aulas-google-sites/slide-cycle">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Slide-Show</div> </div> </li> <!-- THE 0.1 SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image0.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image0_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb0.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb0_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/1YtngiiJ_p0?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>GS no PB</h2> <p> É isso mesmo, atendendo ao pedido do nosso usuario do canal do youtube de numero 100 Mauro, Google Sites no PaintBrush.Aproveitem! </p> <p> <strong>Google Sites</strong> cresce a cada dia mais no Brasil, aproveite e faça uma visita <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com.br/2012/03/novo-denovo.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Fundo com o Paint</div> </div> </li> <!-- THE 1. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image1.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image1_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb1.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb1_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/-caaA3cIe3A?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Behind The Scenes</h2> <p> This movie show how i build my websites on google sites and i try to make in english, i hope you all enjoy this! </p> <p> <strong>Google Sites</strong> is incrising too much in Brazil, to learn more about go to <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2012/02/internacional-hugmadcom-happy-new-year.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Behind The Scenes</div> </div> </li> <!-- THE 2. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image2.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image2_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb2.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb2_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/3eIhtfVr3f8?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>seudominio.com</h2> <p> Como comprar o seu domínio através do Google Apps, agora vou mostrar como fazer para colocar o seu google site direto la no seu domínio comprado. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/11/transformando-sitesgooglecomseudominio.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">sites.google.com em seudominio.com</div> </div> </li> <!-- THE 3. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image3.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image3_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb3.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb3_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/PRyS7zmWew4?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Fundo da página</h2> <p> uma imagem feita no photoshop e depois em um website, essa é só uma luz para aqueles que não sabem por onde começar. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/google-sites-desenhando-sua-webpage.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Background</div> </div> </li> <!-- THE 4. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image4.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image4_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb4.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb4_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/GWi6qDaZ1OU?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Registro de Dominio</h2> <p> Neste video mostro como proceder para registrar seu dominio no google e assim ter o seu tão desejado site .com. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/registro-de-dominio-google-apps.html">More Info</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Registro de Dominio</div> </div> </li> <!-- THE 5. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image5.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image5_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb5.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb5_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/3FXTlSCXc2Y?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Passo a passo</h2> <p> É um recomeço, só que agora com mais detalhes mais passo a passo que antes pra que não fique nada em branco. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/google-sites-passo-passo-layout.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Passo a passo - Layout</div> </div> </li> <!-- THE 6. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image6.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image6_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb6.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb6_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/Vacr0uCTmAw?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Criando seu Site Parte 4 - 02</h2> <p> Ultima parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma google sites. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/google-sites-criando-seu-site-parte-4.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="creative_layer"> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Criando seu Site Parte 4 - 02</div> </div> </div> </li> <!-- THE 7. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image7.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image7_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb7.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb7_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/oV9BZCUdbJc?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Criando seu Site Parte 4 - 01</h2> <p> Penultima parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma google sites. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/07/google-sites-criando-seu-site-parte-4.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="creative_layer"> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Criando seu Site Parte 4 - 01 </div> </div> </div> </li> <!-- THE 8. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image8.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image8_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb8.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb8_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/iJW4ORF9Fhg?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Google Sites 3</h2> <p> Terceira parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma de criação de sites do google sites. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/03/google-sites-criando-seu-site-parte-3.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="creative_layer"> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Google Sites Parte 3</div> </div> </div> </li> <!-- THE 9. SLIDE --> <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image9.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image9_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb9.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb9_blur.jpg"> <div class="video_pradigm"> <div class="video_kenburn_wrap"> <iframe class="video_clip" src="http://www.youtube.com/embed/S4sGiKAo7S0?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe> <h2>Google Sites 2</h2> <p> Segunda parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma de criação de sites do google sites. </p> <p> <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>. </p> <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/03/google-sites-criando-seu-site.html">Leia Mais</a> <div id="close"></div> </div> </div> <div class="creative_layer"> <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div> <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div> <div class="creative_layer"> <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Google Sites Parte 2</div> </div> </div> </li> <!-- THE 10. SLIDE --> </ul> </div> <!-- THE END OF THE BANNER EXMAPLE --> <div class="bannershadow"></div> </div> <!-- ############################## - ACTIVATE THE BANNER HERE - ############################## --> <script type="text/javascript"> (function() { var wf = document.createElement('script'); wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })(); $(document).ready(function() { $.noConflict(); jQuery('#banner-example-1').kenburn( { width:800, height:320, thumbWidth:120, thumbHeight:70, thumbAmount:6, thumbSpaces:0, thumbPadding:9, shadow:'true', parallaxX:500, parallaxY:10, captionParallaxX:-40, captionParallaxY:2, touchenabled:'on', pauseOnRollOverThumbs:'off', pauseOnRollOverMain:'on', timer:10 }); }); 
-</script> 
-</body> 
+<!DOCTYPE html>
+
+
+<!--
+#######################################
+  - THE HEAD PART -
+######################################
+-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+  <title>Hugmad Videos Youtube</title>
+  <link rel="icon" type="image/png" href="https://sites.google.com/a/hugmad.com/web/favicon.png" />
+
+  
+  
+    <!-- commented, remove this line to use IE & iOS favicons -->           
+    <link rel="shortcut icon" href="https://sites.google.com/a/hugmad.com/web/favicon.ico" />     
+
+  
+  
+    <!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>  
+  
+  
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" type="text/css" href="https://sites.google.com/a/hugmad.com/web/style.css" media="screen" />    
+  
+  
+     <!-- jQuery Paradigm Slider  -->
+  <script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.easing.1.3.js"></script>  
+  <script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.cssAnimate.mini.js"></script>  
+  <script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.waitforimages.js"></script>  
+  <script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.touchwipe.min.js"></script>  
+  
+    <script type="text/javascript" src="https://sites.google.com/a/hugmad.com/web/jquery.themepunch.kenburn.min.js"></script>  
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://sites.google.com/a/hugmad.com/web/settings.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/content.css" media="screen" />    
+  
+  
+  <!-- LOADING THE GOOGLE FONTS HERE, If no Google Fonts Needed, set families like: families:['']  !! -->
+  <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'PT+Sans+Narrow:400,700' ] },
+    active: function() { jQuery('body').data('googlefonts','loaded');},
+    inactive: function() { jQuery('body').data('googlefonts','loaded');}
+      };    
+    </script>
+        
+</head>
+
+
+
+<!--
+#######################################
+  - THE BODY PART -
+######################################
+-->
+<body>
+
+      
+
+          
+    
+    <!--
+    #################################
+      - FRESHLINE BANNER -
+    #################################
+    -->
+    
+    
+      
+    <div class="bannerholder">
+    
+      
+      
+      <div id="banner-example-1" class="dark" style="margin-top:0px;">
+        
+        <ul>
+        
+         <!-- THE 0.0 SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/imageck0.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/imageck0blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumbck.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumbck-blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/s2AlPh8kS-s?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Slide-Show</h2>
+                  <p>
+                    Acabei de fazer o video de como colocar um Slide-show dentro do seu Google Site e melhor totalmente editável. Aproveitem!
+                    
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> cresce a cada dia mais no Brasil, aproveite e faça uma visita <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://www.hugmad.com/aulas-google-sites/slide-cycle">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Slide-Show</div>                
+              </div>
+              
+          </li>
+
+        
+        
+  <!-- THE 0.1 SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image0.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image0_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb0.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb0_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/1YtngiiJ_p0?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>GS no PB</h2>
+                  <p>
+                    É isso mesmo, atendendo ao pedido do nosso usuario do canal do youtube de numero 100 Mauro, Google Sites no PaintBrush.Aproveitem!
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> cresce a cada dia mais no Brasil, aproveite e faça uma visita <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com.br/2012/03/novo-denovo.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Fundo com o Paint</div>                
+              </div>
+              
+          </li>
+
+          <!-- THE 1. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image1.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image1_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb1.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb1_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/-caaA3cIe3A?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Behind The Scenes</h2>
+                  <p>
+                    This movie show how i build my websites on google sites and i try to make in english, i hope you all enjoy this!
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> is incrising too much in Brazil, to learn more about go to <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2012/02/internacional-hugmadcom-happy-new-year.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Behind The Scenes</div>                
+              </div>
+              
+          </li>      
+        
+          
+          <!-- THE 2. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image2.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image2_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb2.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb2_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/3eIhtfVr3f8?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>seudominio.com</h2>
+                  <p>
+                    Como comprar o seu domínio através do Google Apps, agora vou mostrar como fazer para colocar o seu google site direto la no seu domínio comprado.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/11/transformando-sitesgooglecomseudominio.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">sites.google.com em seudominio.com</div>                
+              </div>
+              
+          </li>
+          
+          <!-- THE 3. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image3.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image3_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb3.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb3_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/PRyS7zmWew4?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Fundo da página</h2>
+                  <p>
+                    uma imagem feita no photoshop e depois em um website, essa é só uma luz para aqueles que não sabem por onde começar.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/google-sites-desenhando-sua-webpage.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Background</div>                  
+              </div>
+              
+          </li>          
+          <!-- THE 4. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image4.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image4_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb4.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb4_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/GWi6qDaZ1OU?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Registro de Dominio</h2>
+                  <p>
+                    Neste video mostro como proceder para registrar seu dominio no google e assim ter o seu tão desejado site .com.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/registro-de-dominio-google-apps.html">More Info</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>  
+                                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Registro de Dominio</div>              
+              </div>
+              
+          </li>
+          
+          <!-- THE 5. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image5.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image5_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb5.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb5_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/3FXTlSCXc2Y?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Passo a passo</h2>
+                  <p>
+                    É um recomeço, só que agora com mais detalhes mais passo a passo que antes pra que não fique nada em branco.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/google-sites-passo-passo-layout.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                    
+                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Passo a passo - Layout</div>    
+                          
+              </div>
+              
+          </li>
+          
+          <!-- THE 6. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image6.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image6_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb6.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb6_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/Vacr0uCTmAw?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Criando seu Site Parte 4 - 02</h2>
+                  <p>
+                    Ultima parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma google sites.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/10/google-sites-criando-seu-site-parte-4.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div  class="creative_layer">    
+                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Criando seu Site Parte 4 - 02</div>    
+              </div>                
+              </div>
+              
+          </li>  
+
+
+          <!-- THE 7. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image7.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image7_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb7.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb7_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/oV9BZCUdbJc?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Criando seu Site Parte 4 - 01</h2>
+                  <p>
+                    Penultima parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma google sites.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/07/google-sites-criando-seu-site-parte-4.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div  class="creative_layer">    
+                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Criando seu Site Parte 4 - 01 </div>    
+              </div>                
+              </div>
+              
+          </li>      
+
+
+          <!-- THE 8. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image8.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image8_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb8.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb8_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/iJW4ORF9Fhg?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Google Sites 3</h2>
+                  <p>
+                    Terceira parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma de criação de sites do google sites.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/03/google-sites-criando-seu-site-parte-3.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div  class="creative_layer">    
+                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Google Sites Parte 3</div>    
+              </div>                
+              </div>
+              
+          </li>  
+                    <!-- THE 9. SLIDE -->
+          <li data-transition="fade" data-startalign="center,top" data-zoom="in" data-zoomfact="1.6" data-endAlign="center,bottom" data-panduration="12" data-colortransition="4"><img src="https://sites.google.com/a/hugmad.com/web/image9.jpg" data-bw="https://sites.google.com/a/hugmad.com/web/image9_blur.jpg" data-thumb="https://sites.google.com/a/hugmad.com/web/thumb9.jpg" data-thumb_bw="https://sites.google.com/a/hugmad.com/web/thumb9_blur.jpg">
+                          
+              <div class="video_pradigm">
+                <div class="video_kenburn_wrap">  
+                  <iframe class="video_clip" src="http://www.youtube.com/embed/S4sGiKAo7S0?hd=1&amp;wmode=opaque&amp;autohide=1&amp;showinfo=0" height="320" width="569" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+                  <h2>Google Sites 2</h2>
+                  <p>
+                    Segunda parte desse tutorial em portugues para a criação de sites profissionais voltada para a plataforma de criação de sites do google sites.
+                  </p>
+                  <p>
+                    <strong>Google Sites</strong> é a plataforma que mais cresce no brasil atualmente aprenda em <strong>hugmad.com</strong>.
+                  </p>
+                  <a class="buttonlight" target="_blank" href="http://hugmad.blogspot.com/2011/03/google-sites-criando-seu-site.html">Leia Mais</a>
+                  <div id="close"></div>
+                </div>
+              </div>  
+              
+              <div  class="creative_layer">
+                <div class="caption_red wipeleft" style="top:140px;left:30px;"><a href="#">Youtube Video</a></div>          
+                <div class="caption_white wiperight" style="top:140px;left:205px;">Tutorial</div>
+                                <div  class="creative_layer">    
+                <div class="caption_black nobg largecap wipeleft" style="top:10px;left:400px;">Google Sites Parte 2</div>    
+              </div>                
+              </div>
+              
+          </li>  
+                    
+                    <!-- THE 10. SLIDE -->
+          
+
+        </ul>
+      </div>    <!-- THE END OF THE BANNER EXMAPLE -->
+      <div class="bannershadow"></div>
+      
+      
+    </div>  
+    
+      
+  
+      
+
+      <!--
+      ##############################
+       - ACTIVATE THE BANNER HERE -
+      ##############################
+      -->
+      <script type="text/javascript">
+         
+         (function() {
+          var wf = document.createElement('script');
+          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+         })();
+         
+        $(document).ready(function() {
+          $.noConflict();                             
+          
+          jQuery('#banner-example-1').kenburn(
+            {                    
+              width:800,
+              height:320,
+              
+              thumbWidth:120,
+              thumbHeight:70,
+              thumbAmount:6,              
+              thumbSpaces:0,
+              thumbPadding:9,
+              
+              shadow:'true',
+              
+              parallaxX:500,
+              parallaxY:10,
+              captionParallaxX:-40,
+              captionParallaxY:2,
+              
+              touchenabled:'on',
+              pauseOnRollOverThumbs:'off',
+              pauseOnRollOverMain:'on',
+              
+              timer:10
+            });
+            
+            
+          
+            
+      });
+      </script>
+    
+  
+    
+
+  </body>
 </html>
 
 
-]]>
-</Content>
+
+
+
+]]></Content>
 </Module>
